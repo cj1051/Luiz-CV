@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500');
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 100%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0;
+  font-size: 4.209rem;
+  line-height: 80px;
+}
+
+h2 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 3.157rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 2.369rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.777rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+h5 {
+  font-size: 1.333rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+small, .text_small {
+  font-size: 0.75rem;
+}
+
+body {
+  color: #826B4E;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #F0F0F0;
+  background-image: url("../images/1.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: 50% 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  position: fixed;
+  margin: 0;
+  text-align: center;
+  transform-origin: center;
+  top: 64;
+  left: 47%;
+}
+
+#clickanywhere{
+  margin-bottom: 1rem;
+  position: fixed;
+  text-align: center;
+  bottom: 32;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#hero{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero div{
+}
+
+#sc2{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8rem;
+  visibility: hidden;
+}
